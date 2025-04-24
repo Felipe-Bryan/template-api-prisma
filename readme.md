@@ -4,7 +4,7 @@
 
 Template for building APIs using Prisma ORM.
 
-The repository below generates entity files based on the `schema.prisma` file:
+The repository below generates entity files based on the `schema.prisma` file:<br>
 https://github.com/Felipe-Bryan/prisma-file-generator
 
 It is suggested that you read the documentation of the repository above to understand how the file generator works.
@@ -38,9 +38,9 @@ npm run generate
 - Jest
 - ZOD
 
----
-
 ✅ Basic architecture concepts have been applied.
+
+---
 
 ## 🚀 Installing
 
@@ -58,24 +58,24 @@ npx prisma init
 
 ---
 
-☕ Using the Template
+## ☕ Using the Template
 First, create a `.env` file and fill it with your project information, following the example provided in `.env.example`.
 
 ---
 
-ℹ️ Important!
+## ℹ️ Important!
 Redis is already configured and ready to use.<br>
 In the `src/index.ts` file, the comments should be removed to initiate the connection to the database.
 
 ---
 
-ℹ️ Additional Information
-This project was born from the idea of updating this repository:
+## ℹ️ Additional Information
+This project was born from the idea of updating this repository:<br>
 https://github.com/Felipe-Bryan/template-api-ts
 
 Taking advantage of the AI wave, part of this project was developed with the help of ChatGPT (Web) and GitHub Copilot (VSCode Extension).
 
-🔄 Key Updates
+## 🔄 Key Updates
 
 - Switched ORM from TypeORM to PrismaORM
 - Implemented ZOD for data validation
@@ -90,7 +90,7 @@ Taking advantage of the AI wave, part of this project was developed with the hel
 
 - Template para construção de API - Prisma ORM<br>
 
-O repositório abaixo gera arquivos para as entidades de acordo com o arquivo `schema.prisma`
+O repositório abaixo gera arquivos para as entidades de acordo com o arquivo `schema.prisma`<br>
 https://github.com/Felipe-Bryan/prisma-file-generator
 
 É sugerido que leia a documentação do repositório acima para compreender o funcionamento do gerador de arquivos.
@@ -152,7 +152,7 @@ npx prisma init
 
 ## ℹ️ Informações Adicionais
 
-- Este projeto surgiu da ideia de atualizar este repositório:
+- Este projeto surgiu da ideia de atualizar este repositório:<br>
   https://github.com/Felipe-Bryan/template-api-ts
 
 - Aproveitando a crescente onda da Inteligência Artificial, paret deste projeto foi desenvolvido com ajuda do ChatGPT(Web) e Github Copilot(Extensão VSCode)
