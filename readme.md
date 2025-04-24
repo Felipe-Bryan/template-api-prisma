@@ -1,9 +1,13 @@
 (EN)
+
 # API Template – TypeScript – Prisma
+
 Template for building APIs using Prisma ORM.
 
 The repository below generates entity files based on the `schema.prisma` file:
 https://github.com/Felipe-Bryan/prisma-file-generator
+
+It is suggested that you read the documentation of the repository above to understand how the file generator works.
 
 The file generator above has been integrated into the API. Simply run the following command in the terminal to automatically generate files and update the Prisma client:
 
@@ -12,7 +16,9 @@ npm run generate
 ```
 
 ---
+
 🧰 Technologies used:
+
 - TypeScript
 - Prisma ORM
 - Express
@@ -20,6 +26,7 @@ npm run generate
 ---
 
 ⚙️ Configured tools:
+
 - Redis
 - JSON Web Token (JWT)
 - Bcrypt
@@ -27,6 +34,7 @@ npm run generate
 ---
 
 🧪 Installed tools:
+
 - Jest
 - ZOD
 
@@ -34,11 +42,18 @@ npm run generate
 
 ✅ Basic architecture concepts have been applied.
 
-🚀 Installing
+## 🚀 Installing
+
 To start using the API, open the terminal and run:
 
 ```
 npm install
+```
+
+Initialize Prisma:
+
+```
+npx prisma init
 ```
 
 ---
@@ -48,8 +63,9 @@ First, create a `.env` file and fill it with your project information, following
 
 ---
 
-⚠️ Important!
-Redis is already configured and ready to use. It should be used within the useCases according to the project rules.
+ℹ️ Important!
+Redis is already configured and ready to use.<br>
+In the `src/index.ts` file, the comments should be removed to initiate the connection to the database.
 
 ---
 
@@ -60,6 +76,7 @@ https://github.com/Felipe-Bryan/template-api-ts
 Taking advantage of the AI wave, part of this project was developed with the help of ChatGPT (Web) and GitHub Copilot (VSCode Extension).
 
 🔄 Key Updates
+
 - Switched ORM from TypeORM to PrismaORM
 - Implemented ZOD for data validation
 - Added data encryption with Bcrypt
@@ -68,12 +85,15 @@ Taking advantage of the AI wave, part of this project was developed with the hel
 ---
 
 (PT-BR)
+
 # API Template - Typescript - Prisma
 
 - Template para construção de API - Prisma ORM<br>
 
 O repositório abaixo gera arquivos para as entidades de acordo com o arquivo `schema.prisma`
 https://github.com/Felipe-Bryan/prisma-file-generator
+
+É sugerido que leia a documentação do repositório acima para compreender o funcionamento do gerador de arquivos.
 
 O gerador de arquivos acima foi inserido na API, basta rodar o comando abaixo no terminal para a geração automática de arquivos e atualização do prisma client
 
@@ -83,21 +103,21 @@ npm run generate
 
 ---
 
-- Tecnologias utilizadas:<br>
-  Typescript<br>
-  Prisma ORM<br>
-  Express<br>
+🧰 Tecnologias utilizadas:<br>
+Typescript<br>
+Prisma ORM<br>
+Express<br>
 
-- Ferramentas configuradas:<br>
-  Redis<br>
-  JSON Web Token<br>
-  Bcrypt<br>
+⚙️ Ferramentas configuradas:<br>
+Redis<br>
+JSON Web Token<br>
+Bcrypt<br>
 
-- Ferramentas instaladas:<br>
-  Jest<br>
-  ZOD<br>
+🧪 Ferramentas instaladas:<br>
+Jest<br>
+ZOD<br>
 
-- Conceitos básicos de arquitetura aplicados<br>
+✅ Conceitos básicos de arquitetura aplicados<br>
 
 ---
 
@@ -109,6 +129,12 @@ Para iniciar o uso da api, abra o terminal e execute:
 npm install
 ```
 
+Inicializar o Prisma:
+
+```
+npx prisma init
+```
+
 ---
 
 ## ☕ Usando o Template
@@ -117,20 +143,21 @@ npm install
 
 ---
 
-## Importante!
+## ℹ️ Importante!
 
-- Redis está configurado e pronto para uso, deve ser executado nos useCases de acordo com as regras do projeto.
+- Redis está configurado e pronto para uso.<br>
+  No arquivo `src/index.ts` devem ser removidos os comentários para que se inicie a conexão com o banco de dados
 
-----
+---
 
-## Informações Adicionais
+## ℹ️ Informações Adicionais
 
 - Este projeto surgiu da ideia de atualizar este repositório:
   https://github.com/Felipe-Bryan/template-api-ts
 
 - Aproveitando a crescente onda da Inteligência Artificial, paret deste projeto foi desenvolvido com ajuda do ChatGPT(Web) e Github Copilot(Extensão VSCode)
 
-# Principais alterações
+# 🔄 Principais alterações
 
 - Mudança de ORM, saiu TypeORM e entrou PrismaORM
 - Implementação de ZOD para validação dos dados inseridos
